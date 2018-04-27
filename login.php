@@ -10,7 +10,7 @@ $pass=md5($_POST['pass']);
 
 
 
-$sql="SELECT * from signup WHERE name='$uname' AND passs='$pass'";
+$sql="SELECT * from signup WHERE name='$uname' AND pass='$pass'";
 
 $result=$conn->query($sql);
 

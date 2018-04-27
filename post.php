@@ -14,16 +14,4 @@ $result=$conn->query($sql);
 
 header("Location:home.php");
 
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
